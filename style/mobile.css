@@ -1,0 +1,89 @@
+/* main */
+@media only screen and (max-width: 991px){
+
+    .container{
+        width: 990px;
+        margin: 0 auto;
+    }
+
+    .logos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logos a{
+        padding-bottom: 100px;
+    }
+
+    /* section */
+
+    .section_elements{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_elements h1{
+        border: none;
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-bottom: 50px;
+    }
+
+    .section_info{
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .box1{
+        padding-bottom: 20px;
+    }
+
+    .box1 h1, p{
+        text-align: center;
+    }
+
+    .box1 img{
+        padding-left: 80px;
+    }
+
+    /* footer */
+
+    .footer_elements{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .footer_text h1{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer_text a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* banner */
+
+    .banner{
+        background-image: none;
+    }
+
+    .banner_head p{
+        text-align: left;
+    }
+
+    .knopka{
+        margin-left: 300px;
+    }
+}
+
+
+

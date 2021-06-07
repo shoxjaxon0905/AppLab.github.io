@@ -1,0 +1,55 @@
+.banner{
+    background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:  bottom right ;
+}
+.banner_head h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #242f51;
+    padding-bottom: 38px;
+    font-family: 'Poppins';
+}
+
+.banner_head p{
+    color: #616368;
+    font-size: 16px;
+    padding-bottom: 64px;
+    font-family: 'Poppins';
+}
+
+.tablet2 h1{
+    font-size: 20px;
+    color: #242f51;
+    font-family: 'Poppins';
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.tablet2 p{
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins';
+}
+
+.tablet2 img{
+    padding-bottom: 35px;
+}
+
+.butn{ 
+    padding: 18px 59px;
+    background-color: #2500f9;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    transition: all .3s linear;
+}
+
+.butn:hover{
+    color: #fff;
+    background-color: #050024;
+}

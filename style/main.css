@@ -1,0 +1,153 @@
+main {
+    padding-top: 118px;
+    padding-bottom: 182px;
+}
+
+.main_text h1{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: #242f51;
+    padding-bottom: 45px;
+}
+    
+.logos img{
+    transition: all .4s ease;
+}
+
+.logos img:hover{
+    transform: scale(1.3);
+}
+
+.main_flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.main_foto{
+    padding-top: 80px;
+}
+
+.main_info{
+    padding-top: 110px;
+}
+
+.main_info h1{
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #242f51;
+    padding-bottom: 11px;
+}
+
+.main_info p{
+    font-size: 11px;
+    font-family: 'Poppins';
+    color: #616368;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speed_img{
+    padding-top: 19px;
+    padding-right: 32px;
+}
+
+.speed_text h1{
+    color: #f55767;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.speed_text p{
+    padding-bottom: 66px;
+}
+
+.prototype_img{
+    padding-top: 19px;
+    padding-right: 32px;
+}
+
+.prototype_text h1{
+    color: #2563ff;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.prototype_text p{
+    padding-bottom: 66px;
+}
+
+.vector_img{
+    padding-top: 19px;
+    padding-right: 32px;
+}
+
+.vector_text h1{
+    color: #40975f;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.vector_text p{
+    padding-bottom: 66px;
+}
+
+@media only screen and (max-width: 991px){
+
+    .container{
+        width: 990px;
+        margin: 0 auto;
+    }
+
+    .container2{
+        width: 890px;
+        margin: 0 auto;
+    }
+
+    .main_flex{
+        display: block;
+    }
+
+    .main_foto{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_foto img{
+        width: 500px;
+        height: 700px;
+    }
+
+    .main_info h1 {
+        font-size: 36px;
+        font-family: 'Poppins';
+        font-weight: bold;
+        color: #242f51;
+        padding-bottom: 11px;
+        text-align: center;
+    }
+
+    .main_info p {
+        font-size: 16px;
+        font-family: 'Poppins';
+        color: #616368;
+        padding-bottom: 52px;
+        text-align: center;
+    }
+
+    .speed{
+        justify-content: center;
+    }
+
+    .prototype{
+        justify-content: center;
+    }
+
+    .vector{
+        justify-content:center;
+    }
+}

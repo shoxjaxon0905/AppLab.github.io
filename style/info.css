@@ -1,0 +1,42 @@
+.info{
+    padding-top: 140px;
+    padding-bottom: 193px;
+}
+
+.info_head h1{
+    font-size: 36px;
+    color: #242f51;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: center;
+}
+
+.info_head p{
+    padding-top: 40px;
+    padding-bottom: 111px;
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.tablet img{
+    padding-bottom: 35px;
+    padding-left: 68px;
+}
+
+.tablet h1{
+    font-size: 20px;
+    color: #242f51;
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.tablet p{
+    text-align: center;
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins';
+}

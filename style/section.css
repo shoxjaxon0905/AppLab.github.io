@@ -1,0 +1,64 @@
+
+.section_elements{
+    position: relative;
+}
+
+.polosa1{
+    height: 147px;
+    width: 1px;
+    color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+.section_elements h1{
+    border-right: 2px solid #ccc;
+    padding-right: 80px;
+    margin-right: 50px;
+    font-size: 40px;
+    color: #242f51;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.section_elements p{
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins';
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section_info{
+    padding-top: 110px;
+    padding-bottom: 107px;
+}
+
+.box1 h1{
+    color: #f55767;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    padding-bottom: 23px;
+}
+
+.box1 p{
+    color: #616368;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.box1 img{
+    padding-bottom: 35px;
+}
+
+.box2 h1{
+    color: #2563ff;
+}
+
+.box3 h1{
+    color: #40975f;
+}
